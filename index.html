@@ -7,15 +7,36 @@
     <meta name="description" content="Команда VOLT — авторы концепта Альфа-Дело." />
     <title>VOLT — команда концепта Альфа-Дело</title>
     <link rel="stylesheet" href="./styles.css" />
+    <script src="./script.js" defer></script>
   </head>
   <body>
     <main class="poster">
-      <header class="topline">
-        <a class="brand" href="https://directstep.github.io/alfa/" aria-label="Вернуться к концепту Альфа-Дело">
-          <span class="brand-mark" aria-hidden="true">A</span>
-          <span>Альфа-Дело</span>
-        </a>
-        <p>Концепт · 2026</p>
+      <header class="site-header">
+        <div class="header-inner">
+          <a class="brand" href="https://directstep.github.io/alfa/" aria-label="Альфа-Будущее и Альфа-Дело, вернуться на главную">
+            <img src="./assets/alfa-future.svg" alt="Альфа-Будущее" />
+            <span>Альфа-Дело</span>
+          </a>
+          <nav class="desktop-nav" aria-label="Основная навигация">
+            <a href="https://directstep.github.io/alfa/#how-it-works">Как работает</a>
+            <a href="https://directstep.github.io/alfa/#scenario">Маршрут</a>
+            <a href="https://directstep.github.io/alfa/#products">Инструменты</a>
+            <a href="https://directstep.github.io/alfa/#community">Практика</a>
+            <a href="https://directstep.github.io/alfa/#about">О проекте</a>
+          </nav>
+          <a class="header-cta" href="https://directstep.github.io/alfa/">Смотреть проект</a>
+          <button class="menu-toggle" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="mobile-menu">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+        <nav class="mobile-menu" id="mobile-menu" aria-label="Мобильная навигация" hidden>
+          <a href="https://directstep.github.io/alfa/#how-it-works">Как работает</a>
+          <a href="https://directstep.github.io/alfa/#scenario">Маршрут</a>
+          <a href="https://directstep.github.io/alfa/#products">Инструменты</a>
+          <a href="https://directstep.github.io/alfa/#community">Практика</a>
+          <a href="https://directstep.github.io/alfa/#about">О проекте</a>
+          <a class="mobile-cta" href="https://directstep.github.io/alfa/">Смотреть проект</a>
+        </nav>
       </header>
 
       <section class="intro" aria-labelledby="volt-title">

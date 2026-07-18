@@ -179,6 +179,12 @@ a {
   color: var(--black);
 }
 
+@media (min-width: 801px) {
+  .mobile-menu {
+    display: none !important;
+  }
+}
+
 .intro {
   position: relative;
   min-height: min(690px, 70svh);
